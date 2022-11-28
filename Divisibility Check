@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter a Number");
+    scanf("%d",&n);
+    if(n%3==0 && n%5==0)
+    {
+      printf("FUZZBUZZ");
+        }
+    else if(n%3==0)
+    {
+       printf("FUZZ");
+    }
+    else if(n%5==0)
+    {
+        printf("BUZZ");
+    }
+    else 
+     {
+         printf("not divisible by 3 or 5");
+     }
+    return 0;
+}
