@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int n,i,a;
+    a=0;
+    n=1;
+    for(i=0; i<50;i++)
+    {
+        int u=a+n;
+        printf("%ld\n",u);
+        a=n;
+        n=u;
+    }
+
+    return 0;
+}
